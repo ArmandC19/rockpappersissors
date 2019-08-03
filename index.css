@@ -1,0 +1,33 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  border-color: black;
+  border-style: solid;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.results {
+  min-height: 25vh;
+  transition: transform 2 s;
+}
+
+button {
+  margin: 1rem;
+  height: 3rem;
+  width: 20rem;
+  font-size: 1.1rem;
+
+
+}
